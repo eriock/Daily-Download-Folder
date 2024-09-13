@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Download Folder",
+  "version": "1.0",
+  "description": "Creates a new folder for downloads based on the current date.",
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
